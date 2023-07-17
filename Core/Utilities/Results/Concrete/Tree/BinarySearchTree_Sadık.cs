@@ -60,5 +60,90 @@ namespace Core.Utilities.Results.Concrete.Tree
         {
             throw new NotImplementedException();
         }
+
+        public IDataResult<T> FindMax()
+        {
+            throw new NotImplementedException();
+        }
+
+        public IDataResult<T> FindMin()
+        {
+            throw new NotImplementedException();
+        }
+
+        public IDataResult<T> MaxDepht()
+        {
+            throw new NotImplementedException();
+        }
+
+        public IDataResult<INode<T>> DeepNode()
+        {
+            throw new NotImplementedException();
+        }
+
+        public IResult ToDrawAllPaths()
+        {
+            throw new NotImplementedException();
+        }
+
+        public IDataResult<INode<T>> FindPath(INode<T> findedRoot)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IDataResult<INode<T>> FindRoot(T value)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IDataResult<INode<T>> FindRootDepht(T value)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IDataResult<INode<T>> FindRootAll(T value)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IResult Add(T value)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IResult AddRange(List<T> values)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IResult Remove(INode<T> value)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IResult Remove(T value)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IResult RemoveAll(T value)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IResult RemoveAll(INode<T> value)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IResult RemoveRange(List<T> values)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IResult Clear()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
