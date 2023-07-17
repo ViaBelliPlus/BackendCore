@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Core.Utilities.Results
+namespace Core.Utilities.Results.Concrete.Tree
 {
-    public interface ISuccessResult : IResult
+    public partial class BinarySearchTree<T>
     {
-
     }
 }
