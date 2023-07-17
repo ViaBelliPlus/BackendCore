@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Core.Utilities.Results
 {
-    public class ErrorDataResult<T> : IErrorDataResult<T>
+    public interface IResult
     {
+        string Message { get; }
+        bool Success { get; }
     }
 }
