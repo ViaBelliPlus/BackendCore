@@ -4,6 +4,7 @@ using System.Linq;
 using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
+using Core.Utilities.Results.Abstract;
 
 namespace Core.Utilities.Results
 {
@@ -13,7 +14,7 @@ namespace Core.Utilities.Results
         {
             Success = true;
         }
-        public SuccessResult(string message):this()
+        public SuccessResult(string message) : this()
         {
             Message = message;
         }

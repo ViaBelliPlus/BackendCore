@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Core.Utilities.Results.Abstract;
 
-namespace Core.Utilities.Results
+namespace Core.Utilities.Results.Concrete
 {
     public class ErrorDataResult<T> : IErrorDataResult<T>
     {

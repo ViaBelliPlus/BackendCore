@@ -4,11 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Core.Utilities.Results
+namespace Core.Utilities.Results.Abstract
 {
-    public interface IResult
+    public interface IErrorDataResult<T> : IDataResult<T>
     {
-        string Message { get; }
-        bool Success { get; }
     }
 }

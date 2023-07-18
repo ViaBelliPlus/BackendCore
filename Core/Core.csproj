@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
     <PackageId>UtilitiesForBackEnd</PackageId>
     <Title>BackendServiceUtilities</Title>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <Authors>Via Team</Authors>
     <Company>ViaBelli</Company>
     <Product>BackendCore</Product>
@@ -15,7 +15,7 @@
     <RepositoryUrl>https://github.com/ViaBelliPlus/BackendCore.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>backend core utilities</PackageTags>
-    <PackageReleaseNotes>Daha test edilmedi. Doğru çalışmayabilir.</PackageReleaseNotes>
+    <PackageReleaseNotes>Proje artık hazır. Ancak daha test edilmedi.</PackageReleaseNotes>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
 

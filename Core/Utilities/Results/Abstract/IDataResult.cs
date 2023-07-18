@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Core.Utilities.Results.Abstract.Tree.Node
+namespace Core.Utilities.Results.Abstract
 {
-    public interface INode<T>
+    public interface IDataResult<T> : IResult
     {
+        public T Data { get; }
+
     }
 }

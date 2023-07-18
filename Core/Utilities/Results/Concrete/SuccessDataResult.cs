@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Core.Utilities.Results.Abstract;
 
-namespace Core.Utilities.Results
+namespace Core.Utilities.Results.Concrete
 {
     public class SuccessDataResult<T> : ISuccessDataResult<T>
     {
@@ -12,15 +13,15 @@ namespace Core.Utilities.Results
         {
             Success = true;
         }
-        public SuccessDataResult(string message):this()
+        public SuccessDataResult(string message) : this()
         {
-            Message=message;
+            Message = message;
         }
-        public SuccessDataResult(T data):this()
+        public SuccessDataResult(T data) : this()
         {
             Data = data;
         }
-        public SuccessDataResult(string message,T data):this(message)
+        public SuccessDataResult(string message, T data) : this(message)
         {
             Data = data;
         }
