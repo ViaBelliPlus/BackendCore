@@ -8,6 +8,9 @@ namespace Core.Utilities.Messages
 {
     public static class SuccessMessages
     {
+        /// <summary>
+        /// The corresponding value has been successfully deleted
+        /// </summary>
         public static string SuccessfulDeletionMessage { get; } = "The corresponding value has been successfully deleted";
     }
 }
