@@ -41,5 +41,9 @@ namespace Core.Utilities.Messages
         /// The relative value must be implemented IComparable
         /// </summary>
         public static string NotComparable { get; } = "The relative value must be implemented IComparable";
+        /// <summary>
+        /// 
+        /// </summary>
+        public static string NotDefinedMethod { get; } = "You tried to use a method that is not defined for this class";
     }
 }
